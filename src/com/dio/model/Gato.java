@@ -1,20 +1,19 @@
 package com.dio.model;
 
-
 public class Gato {
 
 	private String nome;
 	private String cor;
 	private Integer idade;
 
-	public Gato() {}
-	
-	public Gato(String nome, String cor, Integer idade){
+	public Gato() {
+	}
+
+	public Gato(String nome, String cor, Integer idade) {
 		this.nome = nome;
 		this.cor = cor;
 		this.idade = idade;
-		
-		
+
 	}
 
 	public String getNome() {
@@ -41,7 +40,6 @@ public class Gato {
 		this.idade = idade;
 	}
 
-	
 	public String toString() {
 		return "Gato [nome=" + nome + ", cor=" + cor + ", idade=" + idade + ", getNome()=" + getNome() + ", getCor()="
 				+ getCor() + ", getIdade()=" + getIdade() + ", hashCode()=" + hashCode() + ", getClass()=" + getClass()
@@ -49,6 +47,6 @@ public class Gato {
 	}
 
 	// alt + arrowdown move um bloco de código
-	//ctrl + shift + f "beautyfy"
+	// ctrl + shift + f "beautyfy"
 
 }

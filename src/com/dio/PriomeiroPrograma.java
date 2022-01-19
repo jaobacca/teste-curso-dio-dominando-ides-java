@@ -1,5 +1,6 @@
 package com.dio;
 
+import com.dio.Calculadora.Calculadora;
 import com.dio.model.*;
 
 public class PriomeiroPrograma {
@@ -10,6 +11,7 @@ public class PriomeiroPrograma {
 		
 		System.out.println(gato);
 		System.out.println(livro);
+		Calculadora calculadora = new Calculadora();
 		
 	}
 
